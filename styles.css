@@ -95,7 +95,8 @@ button {
 }
 
 .info-columns {
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 .info-column {
     width: 200px;
