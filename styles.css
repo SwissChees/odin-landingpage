@@ -7,7 +7,7 @@ body {
 }
 /* All flex containers */
 .hero-and-header, .header, ul, .hero, .hero-image, 
-.info, .info-columns, .quote {
+.info, .info-columns, .quote, .call-to-action {
     display: flex;
 }
 
@@ -135,4 +135,23 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 18px;
+}
+
+/* Call to action section */
+.call-to-action {
+    background-color: #3882F6;
+    margin: 50px 150px;
+    padding: 25px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+.call-to-action-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
 }
